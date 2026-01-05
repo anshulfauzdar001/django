@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Django Tutorial</title>
+</head>
+<body>
+  <h1>heyyyyyyyyyyy.....</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus esse consectetur aspernatur aut atque quos odio et ducimus necessitatibus minima commodi dignissimos veniam tempora natus consequuntur, qui hic? Quo, in?</p>
+
+  <tr>
+    {% for person in people %}
+      <td>{{ person.name }}</td>
+      <td>{{ person.age }}</td>
+    {% endfor %}
+  </tr>
+</body>
+</html>
